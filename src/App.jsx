@@ -68,22 +68,38 @@ export default function App() {
 
           <main className="mx-auto w-full max-w-[980px] px-4 sm:px-6 pb-10">
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_290px] gap-6 items-start">
-            <div className="space-y-10">
-              <About dark={dark} />
-              <Projects
-                dark={dark}
-                setCurrentPage={setCurrentPage}
-                setSelectedProjectId={setSelectedProjectId}
-              />
-              <TechStack dark={dark} setCurrentPage={setCurrentPage} />
-              <Seminars dark={dark} />
-            </div>
-            <div className="space-y-4 lg:sticky lg:top-8">
-              <AccessCard dark={dark} />
-              <Experience dark={dark} />
-              <Contact dark={dark} />
-            </div>
-            </div>
+  <div className="space-y-10">
+    <About dark={dark} />
+
+    {/* Mobile-only: sidebar components in correct order */}
+    <div className="lg:hidden">
+      <Experience dark={dark} />
+    </div>
+    <div className="lg:hidden">
+      <AccessCard dark={dark} />
+    </div>
+
+    <TechStack dark={dark} setCurrentPage={setCurrentPage} />
+    <Projects
+      dark={dark}
+      setCurrentPage={setCurrentPage}
+      setSelectedProjectId={setSelectedProjectId}
+    />
+    <Seminars dark={dark} />
+
+    <div className="lg:hidden">
+      <Contact dark={dark} />
+    </div>
+
+  </div>
+
+  {/* Sidebar: desktop only */}
+  <div className="space-y-4 lg:sticky lg:top-8 hidden lg:block">
+    <AccessCard dark={dark} />
+    <Experience dark={dark} />
+    <Contact dark={dark} />
+  </div>
+</div>
           </main>
 
           <footer className={`border-t text-center py-6 text-xs transition-colors ${dark ? "border-zinc-800 text-zinc-400" : "border-zinc-200 text-zinc-500"}`}>
