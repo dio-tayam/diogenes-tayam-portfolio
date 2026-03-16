@@ -33,7 +33,7 @@ export default function Hero({ dark, setDark }) {
 
   const handleDownloadCv = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = "/diogenes-tayam-portfolio/resume.pdf";
     link.download = "Diogenes-Tayam-Resume.pdf";
     link.target = "_blank";
     document.body.appendChild(link);
