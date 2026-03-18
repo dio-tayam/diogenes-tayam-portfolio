@@ -158,28 +158,28 @@ export const profile = {
       organization: "Data Analytics Philippines",
       date: "2025",
       icon: "🤖",
-      pdf: "/certificates/excel.pdf"
+      pdf: "/diogenes-tayam-portfolio/certificates/excel.pdf"
     },
     {
       title: "Introduction to Computer System Servicing",
       organization: "Technical Education and Skills Development Authority",
       date: "2025",
       icon: "🎨",
-      pdf: "/certificates/tesda.pdf"
+      pdf: "/diogenes-tayam-portfolio/certificates/tesda.pdf"
     },
     {
       title: "Ideate & Search Intellectual Property (ISIP)",
       organization: "Bicol University Intellectual Property Management Office",
       date: "2024",
       icon: "⚛️",
-      pdf: "/certificates/isip.pdf"
+      pdf: "/diogenes-tayam-portfolio/certificates/isip.pdf"
     },
     {
       title: "Bicol IT Students Congress",
       organization: "Camarines Norte State College",
       date: "2024",
       icon: "🚀",
-      pdf: "/certificates/bitscon.pdf"
+      pdf: "/diogenes-tayam-portfolio/certificates/bitscon.pdf"
     },
   ],
   links: {
