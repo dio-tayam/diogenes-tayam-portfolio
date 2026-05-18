@@ -17,7 +17,7 @@ export default function Projects({ dark, setCurrentPage, setSelectedProjectId })
         </div>
         <button
           onClick={() => setCurrentPage("projects")}
-          className={`flex items-center gap-2 px-3 py-1.5 rounded-sm border text-sm transition-colors ${dark ? "border-zinc-700 text-zinc-200 hover:bg-zinc-900" : "border-zinc-300 text-zinc-700 hover:bg-zinc-100"}`}
+          className={`flex items-center gap-2 px-3 py-1.5 rounded-sm border text-sm transition-colors ${dark ? "border-zinc-700 text-zinc-200 hover:bg-zinc-900" : "border-zinc-300 text-zinc-700 hover:bg-zinc-50"}`}
         >
           View All <ChevronRight size={16} />
         </button>
@@ -59,6 +59,11 @@ export default function Projects({ dark, setCurrentPage, setSelectedProjectId })
                   {project.githubUrl && (
                     <a href={project.githubUrl} target="_blank" rel="noreferrer" className={`flex items-center gap-1.5 text-xs transition-colors ${dark ? "text-zinc-300 hover:text-zinc-100" : "text-zinc-700 hover:text-zinc-900"}`}>
                       <Github size={16} /> Code
+                    </a>
+                  )}
+                  {project.liveUrl && (
+                    <a href={project.liveUrl} target="_blank" rel="noreferrer" className={`flex items-center gap-1.5 text-xs transition-colors ${dark ? "text-zinc-300 hover:text-zinc-100" : "text-zinc-700 hover:text-zinc-900"}`}>
+                      <ExternalLink size={16} /> See Live
                     </a>
                   )}
                   <button
