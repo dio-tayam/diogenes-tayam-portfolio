@@ -67,13 +67,39 @@ export const profile = {
       technologies: ["Vue.js", "Vite", "Tailwind CSS"],
       features: ["PDF Generation", "Invoice History", "Dynamic Line Items", "Tax Calculation", "localStorage", "Responsive Design"],
       image: null,
-      githubUrl: "",
+      githubUrl: "https://github.com/dio-tayam/invoicera",
       liveUrl: "https://invoicera-two.vercel.app/",
       featured: true,
       impact: "Helps freelancers and small agencies create, save, and export professional invoices without needing a backend or paid tool."
     },
     {
       id: 3,
+      title: "Tracera",
+      description: "A free, full-stack job application tracker built for job seekers who want to stay organised and in control of their search. Track every application, monitor statuses, log interview moods, and gain insights — all synced across devices via Supabase with Google login.",
+      technologies: ["Vue.js", "TailwindCSS", "Vite", "Supabase", "Pinia", "Vue Router", "Chart.js"],
+      features: [
+        "Google Authentication",
+        "Kanban Board View",
+        "Application Status Timeline",
+        "Mood Log per Interaction",
+        "Confidence Score Tracking",
+        "Weekly Goal & Streak Counter",
+        "Interview Prep Checklist",
+        "Insights & Analytics",
+        "PDF Export with Templates",
+        "CSV Export with Templates",
+        "JSON Data Backup",
+        "Dark Mode",
+        "Fully Responsive"
+      ],
+      image: null,
+      githubUrl: "https://github.com/dio-tayam/tracera",
+      liveUrl: "https://tracera-gamma.vercel.app/",
+      featured: true,
+      impact: "Helps job seekers track every application in one place, stay on top of follow-ups, and understand their job search performance — all for free, with no data ever lost across devices."
+    }
+    {
+      id: 4,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
       description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -85,7 +111,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 4,
+      id: 5,
       title: "Bicol University Merit System Promotion",
       description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -97,7 +123,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 5,
+      id: 6,
       title: "Bicol University Student Archiving System",
       description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated reports.",
       technologies: ["Laravel", "Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -109,7 +135,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 6,
+      id: 7,
       title: "TNHS Databank System",
       description: "A databank system for managing teachers' and students' data in a high school institution. It includes report generation and data entry functionality.",
       technologies: ["Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -121,7 +147,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 7,
+      id: 8,
       title: "PaRental Guardian - E-commerce Platform",
       description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, and payment processing.",
       technologies: ["HTML", "CSS", "PHP", "JavaScript", "MySQL"],
@@ -133,7 +159,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 8,
+      id: 9,
       title: "Queery - Mobile Dictionary App",
       description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, and community contributions.",
       technologies: ["Flutter", "Dart", "Firebase", "Hive"],
@@ -141,7 +167,7 @@ export const profile = {
       image: null,
       githubUrl: "",
       liveUrl: "",
-      featured: true,
+      featured: false,
       impact: ""
     },
   ],
