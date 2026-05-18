@@ -56,7 +56,7 @@ export const profile = {
       features: ["Payment Integration", "Role-Based Access", "Buy & Sell"],
       image: null,
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://edgerra.com/",
       featured: true,
       impact: ""
     },
@@ -68,7 +68,7 @@ export const profile = {
       features: ["PDF Generation", "Invoice History", "Dynamic Line Items", "Tax Calculation", "localStorage", "Responsive Design"],
       image: null,
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://invoicera-two.vercel.app/",
       featured: true,
       impact: "Helps freelancers and small agencies create, save, and export professional invoices without needing a backend or paid tool."
     },
