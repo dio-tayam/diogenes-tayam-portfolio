@@ -16,7 +16,7 @@ export default function Contact({ dark }) {
           { icon: Mail, label: "Email", value: profile.links.email, href: `mailto:${profile.links.email}` },
           { icon: Phone, label: "Phone", value: profile.links.phone, href: `tel:${profile.links.phone.replace(/\s/g, "")}` },
           { icon: MapPin, label: "Location", value: profile.location, href: "#" },
-          { icon: Github, label: "GitHub", value: "github.com/thirdxx", href: profile.links.github },
+          { icon: Github, label: "GitHub", value: "github.com/dio-tayam", href: profile.links.github },
           { icon: Linkedin, label: "LinkedIn", value: "Connect on LinkedIn", href: profile.links.linkedin },
         ].map(({ icon, label, value, href }) => {
           const IconComponent = icon;
