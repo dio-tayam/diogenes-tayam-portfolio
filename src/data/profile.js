@@ -4,8 +4,8 @@ export const profile = {
   location: "Sorsogon City, Philippines",
   badge: "🎓 BSIT Magna Cum Laude — Bicol University",
   about: [
-    "I'm a full-stack developer with hands-on experience building end-to-end web and mobile applications. My work spans frontend interfaces with React and Tailwind CSS, backend systems with Laravel and Node.js, and mobile apps with Flutter, giving me a well-rounded perspective across the entire development stack.",
-    "I completed my BSIT degree Magna Cum Laude at Bicol University, where I developed several institutional systems and honed my skills in clean architecture, database design, and scalable application development. I take pride in writing maintainable code and delivering solutions that are both functional and user-centered.",
+    "I'm a full-stack developer with hands-on experience building end-to-end web and mobile applications. My work spans frontend interfaces with React and Tailwind CSS, backend systems with Laravel and Node.js, and mobile solutions with Flutter.",
+    "I completed my BSIT degree Magna Cum Laude at Bicol University, where I developed several institutional systems and honed my skills in clean architecture, database design, and scalable applications."
   ],
   interests: [
     "Web Development", "Full-Stack Development", "Mobile App Development",
@@ -52,54 +52,59 @@ export const profile = {
       id: 1,
       title: "Edgerra",
       description: "A non-custodial marketplace where traders discover, build, and share intelligent signals for Polymarket",
-      technologies: ["React.js", "Next.js" "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
-      features: ["Payment Integration", "Role-Based Access", "Buy & Sell",],
+      technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
+      features: ["Payment Integration", "Role-Based Access", "Buy & Sell"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: ""
     },
     {
       id: 2,
       title: "Invoicera",
-      description: "A full-stack invoice generator built with Vue 3 and Tailwind CSS. Supports client and sender details, dynamic line items, tax calculation, PDF export, and invoice history stored in localStorage.",
+      description: "A full-stack invoice generator built with Vue 3 and Tailwind CSS. Supports client and sender details, dynamic line items, tax calculation, PDF export, and invoice history storage.",
       technologies: ["Vue.js", "Vite", "Tailwind CSS"],
       features: ["PDF Generation", "Invoice History", "Dynamic Line Items", "Tax Calculation", "localStorage", "Responsive Design"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: "Helps freelancers and small agencies create, save, and export professional invoices without needing a backend or paid tool."
     },
     {
       id: 3,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
-      description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
-      technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL",],
+      description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities.",
+      technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
       features: ["Document Management", "Role-Based Access", "Search & Filter", "Report Generation"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: ""
     },
     {
       id: 4,
       title: "Bicol University Merit System Promotion",
-      description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
-      technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL",],
+      description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search.",
+      technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
       features: ["Document Management", "Role-Based Access", "Search & Filter", "Report Generation"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: ""
     },
     {
       id: 5,
       title: "Bicol University Student Archiving System",
-      description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
+      description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated reports.",
       technologies: ["Laravel", "Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
       features: ["Document Management", "Role-Based Access", "Search & Filter", "Report Generation", "Email Notifications"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: "Digitalized records management for 10,000+ students"
     },
@@ -111,28 +116,31 @@ export const profile = {
       features: ["Document Management", "Role-Based Access", "Search & Filter", "Report Generation", "Email Notifications"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: "Digitalized records management for 10,000+ students"
     },
     {
       id: 7,
       title: "PaRental Guardian - E-commerce Platform",
-      description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, secure payment integration, and order tracking.",
+      description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, and payment processing.",
       technologies: ["HTML", "CSS", "PHP", "JavaScript", "MySQL"],
       features: ["User Authentication", "Product Management", "Payment Gateway", "Order Tracking", "Admin Dashboard"],
       image: null,
       githubUrl: "https://github.com/thirdxx/PaRental-Guardian-Website",
+      liveUrl: "",
       featured: true,
       impact: ""
     },
     {
       id: 8,
       title: "Queery - Mobile Dictionary App",
-      description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, community contributions, and an AI-powered language expert system.",
+      description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, and community contributions.",
       technologies: ["Flutter", "Dart", "Firebase", "Hive"],
       features: ["Offline Dictionary", "Search & Filter", "Bookmarks", "Word Contribution", "User Profiles"],
       image: null,
       githubUrl: "",
+      liveUrl: "",
       featured: true,
       impact: ""
     },
@@ -152,7 +160,7 @@ export const profile = {
       year: "October 2025 - Present", 
       employmentType: "Full Time",
       active: true,
-      description: "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive web systems."
+      description: "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive applications."
     },
     { 
       role: "Full Stack Developer Intern", 
@@ -160,7 +168,7 @@ export const profile = {
       year: "February 2025 - May 2025", 
       employmentType: "Internship",
       active: false,
-      description: "Developed a web-based archiving system for student records using the Filament PHP framework at the Bicol University Registrar’s Office. "
+      description: "Developed a web-based archiving system for student records using the Filament PHP framework at the Bicol University Registrar's Office."
     },
   ],
   seminars: [
