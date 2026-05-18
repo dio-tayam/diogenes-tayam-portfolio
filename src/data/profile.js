@@ -97,7 +97,7 @@ export const profile = {
       liveUrl: "https://tracera-gamma.vercel.app/",
       featured: true,
       impact: "Helps job seekers track every application in one place, stay on top of follow-ups, and understand their job search performance — all for free, with no data ever lost across devices."
-    }
+    },
     {
       id: 4,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
