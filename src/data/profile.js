@@ -34,7 +34,7 @@ export const profile = {
     group: "DEVS ONE HUNDRED",
     role: "Github Username",
     label: "FULLSTACK DEVELOPER",
-    name: "thirdxx",
+    name: "dio-tayam",
   },
   techStack: {
     "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "UI/UX Principles", "Responsive Design"],
@@ -50,9 +50,9 @@ export const profile = {
   projects: [
     {
       id: 1,
-      title: "Prediction Market Intelligence Tool",
+      title: "Edgerra",
       description: "A non-custodial marketplace where traders discover, build, and share intelligent signals for Polymarket",
-      technologies: ["React.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
+      technologies: ["React.js", "Next.js" "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
       features: ["Payment Integration", "Role-Based Access", "Buy & Sell",],
       image: null,
       githubUrl: "",
@@ -61,6 +61,17 @@ export const profile = {
     },
     {
       id: 2,
+      title: "Invoicera",
+      description: "A full-stack invoice generator built with Vue 3 and Tailwind CSS. Supports client and sender details, dynamic line items, tax calculation, PDF export, and invoice history stored in localStorage.",
+      technologies: ["Vue.js", "Vite", "Tailwind CSS"],
+      features: ["PDF Generation", "Invoice History", "Dynamic Line Items", "Tax Calculation", "localStorage", "Responsive Design"],
+      image: null,
+      githubUrl: "",
+      featured: true,
+      impact: "Helps freelancers and small agencies create, save, and export professional invoices without needing a backend or paid tool."
+    },
+    {
+      id: 3,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
       description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL",],
@@ -71,7 +82,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 3,
+      id: 4,
       title: "Bicol University Merit System Promotion",
       description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL",],
@@ -82,7 +93,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 4,
+      id: 5,
       title: "Bicol University Student Archiving System",
       description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated record generation.",
       technologies: ["Laravel", "Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -93,7 +104,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 5,
+      id: 6,
       title: "TNHS Databank System",
       description: "A databank system for managing teachers' and students' data in a high school institution. It includes report generation and data entry functionality.",
       technologies: ["Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -104,7 +115,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 6,
+      id: 7,
       title: "PaRental Guardian - E-commerce Platform",
       description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, secure payment integration, and order tracking.",
       technologies: ["HTML", "CSS", "PHP", "JavaScript", "MySQL"],
@@ -115,7 +126,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 7,
+      id: 8,
       title: "Queery - Mobile Dictionary App",
       description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, community contributions, and an AI-powered language expert system.",
       technologies: ["Flutter", "Dart", "Firebase", "Hive"],
@@ -183,7 +194,7 @@ export const profile = {
     },
   ],
   links: {
-    github: "https://github.com/thirdxx",
+    github: "https://github.com/dio-tayam",
     linkedin: "https://www.linkedin.com/in/diogenes-tayam-9208ab372/",
     email: "diogenesiiiaraojo.tayam@gmail.com",
     phone: "+63 945 5394 093",
