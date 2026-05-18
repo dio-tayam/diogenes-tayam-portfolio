@@ -37,12 +37,12 @@ export const profile = {
     name: "dio-tayam",
   },
   techStack: {
-    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "UI/UX Principles", "Responsive Design"],
-    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "REST APIs","MySQL","PostgreSQL","NoSQL"],
+    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
+    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
     "DevOps & Cloud": ["Docker","AWS","Firebase"],
-    "AI": ["Claude","ChatGPT", "GitHub Copilot", "Gemini Pro"],
+    "AI": ["Claude","ChatGPT", "GitHub Copilot", "Gemini"],
     "Tools": ["Git","GitHub","VS Code","Visual Studio 2022","Android Studio","XAMPP","ESLint","Prettier"],
     "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix"],
     "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
