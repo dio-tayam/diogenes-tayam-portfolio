@@ -64,7 +64,7 @@ export const profile = {
       id: 2,
       title: "Travera",
       description: "A full-stack travel planner built with Next.js, React, Tailwind CSS, and Supabase. Supports expense splitting, smart packing list, document storage, interactive itenarary, and more",
-      technologies: ["Vue.js", "Vite", "Tailwind CSS"],
+      technologies: ["Next.js", "React", "Tailwind CSS", "Supabase"],
       features: ["Multiple Languages", "Real-time Collaboration", "Interactive Intenerary", "Responsive Design"],
       image: null,
       githubUrl: "https://github.com/dio-tayam/travera",
