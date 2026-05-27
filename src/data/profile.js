@@ -196,16 +196,16 @@ export const profile = {
     },
   ],
   experience: [
+    // { 
+    //   role: "Full Stack Developer", 
+    //   company: "AppArara Digital", 
+    //   year: "January 2026 - Present", 
+    //   employmentType: "Part Time",
+    //   active: true,
+    //   description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Node.js, and PostgreSQL."
+    // },
     { 
       role: "Full Stack Developer", 
-      company: "AppArara Digital", 
-      year: "January 2026 - Present", 
-      employmentType: "Part Time",
-      active: true,
-      description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Node.js, and PostgreSQL."
-    },
-    { 
-      role: "Junior Programmer", 
       company: "Bicol University - Information Communication Technology Office", 
       year: "October 2025 - Present", 
       employmentType: "Full Time",
