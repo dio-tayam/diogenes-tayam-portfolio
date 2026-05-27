@@ -112,6 +112,18 @@ export const profile = {
     },
     {
       id: 5,
+      title: "Mailera",
+      description: "A CSV-to-personalized-email generator built with Next.js and Tailwind CSS. Upload a contact list, write a prompt template with {{placeholders}}, choose a tone, and it generates a personalized subject line and email body for every row using Groq's Llama 3.3 70B.",
+      technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "Groq API", "Llama 3.3 70B", "Vercel"],
+      features: ["CSV Upload & Preview", "Placeholder Detection", "Tone Selector", "AI Email Generation", "Inline Editing", "CSV Export", "Copy to Clipboard", "Responsive Design"],
+      image: null,
+      githubUrl: "",
+      liveUrl: "https://mailera-rho.vercel.app/",
+      featured: true,
+      impact: "Helps sales teams and recruiters generate hundreds of personalized outreach emails in minutes without writing each one manually."
+    },
+    {
+      id: 6,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
       description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -123,7 +135,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 6,
+      id: 7,
       title: "Bicol University Merit System Promotion",
       description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -135,7 +147,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 7,
+      id: 8,
       title: "Bicol University Student Archiving System",
       description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated reports.",
       technologies: ["Laravel", "Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -147,7 +159,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 8,
+      id: 9,
       title: "TNHS Databank System",
       description: "A databank system for managing teachers' and students' data in a high school institution. It includes report generation and data entry functionality.",
       technologies: ["Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -159,7 +171,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 9,
+      id: 10,
       title: "PaRental Guardian - E-commerce Platform",
       description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, and payment processing.",
       technologies: ["HTML", "CSS", "PHP", "JavaScript", "MySQL"],
@@ -171,7 +183,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 10,
+      id: 11,
       title: "Queery - Mobile Dictionary App",
       description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, and community contributions.",
       technologies: ["Flutter", "Dart", "Firebase", "Hive"],
