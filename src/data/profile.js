@@ -38,7 +38,7 @@ export const profile = {
   },
   techStack: {
     "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
-    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
+    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
     "DevOps & Cloud": ["Docker","AWS","Firebase"],
