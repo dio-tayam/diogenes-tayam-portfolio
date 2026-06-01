@@ -52,7 +52,7 @@ export const profile = {
       id: 1,
       title: "Edgerra",
       description: "A non-custodial marketplace where traders discover, build, and share intelligent signals for Polymarket",
-      technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
+      technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook", "Prisma", "Docker"],
       features: ["Payment Integration", "Role-Based Access", "Buy & Sell"],
       image: null,
       githubUrl: "",
