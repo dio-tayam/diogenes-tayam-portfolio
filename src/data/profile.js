@@ -4,7 +4,7 @@ export const profile = {
   location: "Sorsogon City, Philippines",
   badge: "🎓 BSIT Magna Cum Laude — Bicol University",
   about: [
-    "I'm a full-stack developer with hands-on experience building end-to-end web and mobile applications. My work spans frontend interfaces with React and Tailwind CSS, backend systems with Laravel and Node.js, and mobile solutions with Flutter.",
+    "I'm a full-stack developer with hands-on experience building end-to-end web and mobile applications — crafting responsive, interactive frontends with React, Next.js, Vue.js, TypeScript, and Tailwind CSS, and powering them with robust backends built on Laravel, Node.js, and Express.js, backed by PostgreSQL, MySQL, and Supabase. I handle authentication with JWT and OAuth, manage deployments through Docker, AWS, and Vercel, integrate REST APIs and third-party services, and build mobile apps with Flutter and React Native.",
     "I completed my BSIT degree Magna Cum Laude at Bicol University, where I developed several institutional systems and honed my skills in clean architecture, database design, and scalable applications."
   ],
   interests: [
@@ -38,13 +38,13 @@ export const profile = {
   },
   techStack: {
     "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
-    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
+    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "FastAPI", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
     "DevOps & Cloud": ["Docker","AWS","Firebase"],
     "AI": ["Claude","ChatGPT", "GitHub Copilot", "Gemini"],
     "Tools": ["Git","GitHub","VS Code","Visual Studio 2022","Android Studio","XAMPP","ESLint","Prettier"],
-    "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix"],
+    "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix", "Shopify"],
     "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
  },
   projects: [
@@ -52,7 +52,7 @@ export const profile = {
       id: 1,
       title: "Edgerra",
       description: "A non-custodial marketplace where traders discover, build, and share intelligent signals for Polymarket",
-      technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook"],
+      technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook", "Prisma", "Docker"],
       features: ["Payment Integration", "Role-Based Access", "Buy & Sell"],
       image: null,
       githubUrl: "",
@@ -196,14 +196,14 @@ export const profile = {
     },
   ],
   experience: [
-    // { 
-    //   role: "Full Stack Developer", 
-    //   company: "AppArara Digital", 
-    //   year: "January 2026 - Present", 
-    //   employmentType: "Part Time",
-    //   active: true,
-    //   description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Node.js, and PostgreSQL."
-    // },
+    { 
+      role: "Full Stack Developer", 
+      company: "AppArara Digital", 
+      year: "January 2026 - Present", 
+      employmentType: "Part Time",
+      active: true,
+      description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Next.js, Node.js, and PostgreSQL."
+    },
     { 
       role: "Full Stack Developer", 
       company: "Bicol University - Information Communication Technology Office", 
