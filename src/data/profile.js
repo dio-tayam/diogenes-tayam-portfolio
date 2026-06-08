@@ -41,9 +41,9 @@ export const profile = {
     "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "FastAPI", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
-    "DevOps & Cloud": ["Docker","AWS","Firebase"],
-    "AI": ["Claude","ChatGPT", "GitHub Copilot", "Gemini"],
-    "Tools": ["Git","GitHub","VS Code","Visual Studio 2022","Android Studio","XAMPP","ESLint","Prettier"],
+    "DevOps & Cloud": ["Docker","AWS","Firebase", "Vercel", "Netlify"],
+    "AI": ["Claude","ChatGPT", "Cursor AI", "GitHub Copilot", "Gemini"],
+    "Tools": ["Git","GitHub","VS Code","Visual Studio 2022", "Replit","Android Studio","XAMPP","ESLint","Prettier"],
     "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix", "Shopify"],
     "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
  },
