@@ -199,7 +199,7 @@ export const profile = {
     { 
       role: "Full Stack Developer", 
       company: "AppArara Digital", 
-      year: "January 2026 - Present", 
+      year: "January 2026 - June 2026", 
       employmentType: "Part Time",
       active: true,
       description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Next.js, Node.js, and PostgreSQL."
@@ -207,7 +207,7 @@ export const profile = {
     { 
       role: "Full Stack Developer", 
       company: "Bicol University - Information Communication Technology Office", 
-      year: "October 2025 - Present", 
+      year: "October 2025 - June 2026", 
       employmentType: "Full Time",
       active: true,
       description: "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive applications."
