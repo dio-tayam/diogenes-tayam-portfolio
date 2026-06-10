@@ -37,13 +37,13 @@ export const profile = {
     name: "dio-tayam",
   },
   techStack: {
-    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
+    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js", "Nuxt.js", "Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
     "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "FastAPI", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
-    "DevOps & Cloud": ["Docker","AWS","Firebase"],
-    "AI": ["Claude","ChatGPT", "GitHub Copilot", "Gemini"],
-    "Tools": ["Git","GitHub","VS Code","Visual Studio 2022","Android Studio","XAMPP","ESLint","Prettier"],
+    "DevOps & Cloud": ["Docker","AWS","Firebase", "Vercel", "Netlify"],
+    "AI/LLMs": ["Claude","ChatGPT", "Cursor AI", "GitHub Copilot", "Gemini", "Groq"],
+    "Tools": ["Git","GitHub","VS Code","Visual Studio 2022", "Replit","Android Studio","XAMPP","ESLint","Prettier"],
     "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix", "Shopify"],
     "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
  },
@@ -199,7 +199,7 @@ export const profile = {
     { 
       role: "Full Stack Developer", 
       company: "AppArara Digital", 
-      year: "January 2026 - Present", 
+      year: "January 2026 - June 2026", 
       employmentType: "Part Time",
       active: true,
       description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Next.js, Node.js, and PostgreSQL."
@@ -207,7 +207,7 @@ export const profile = {
     { 
       role: "Full Stack Developer", 
       company: "Bicol University - Information Communication Technology Office", 
-      year: "October 2025 - Present", 
+      year: "October 2025 - June 2026", 
       employmentType: "Full Time",
       active: true,
       description: "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive applications."
