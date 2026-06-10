@@ -37,12 +37,12 @@ export const profile = {
     name: "dio-tayam",
   },
   techStack: {
-    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js","Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
+    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js", "Nuxt.js", "Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
     "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "FastAPI", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
     "Mobile": ["Dart","Flutter","React Native","Firebase"],
     "Authentication & Security": ["OAuth","JWT"],
     "DevOps & Cloud": ["Docker","AWS","Firebase", "Vercel", "Netlify"],
-    "AI": ["Claude","ChatGPT", "Cursor AI", "GitHub Copilot", "Gemini"],
+    "AI/LLMs": ["Claude","ChatGPT", "Cursor AI", "GitHub Copilot", "Gemini", "Groq"],
     "Tools": ["Git","GitHub","VS Code","Visual Studio 2022", "Replit","Android Studio","XAMPP","ESLint","Prettier"],
     "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix", "Shopify"],
     "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
