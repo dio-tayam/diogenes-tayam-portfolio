@@ -37,16 +37,116 @@ export const profile = {
     name: "dio-tayam",
   },
   techStack: {
-    "Frontend": ["HTML5","CSS3","JavaScript","TypeScript","Vite","React.js","Next.js", "Nuxt.js", "Vue.js","Tailwind CSS","Bootstrap","Alpine.js","Livewire", "Vite", "UI/UX Principles", "Responsive Design"],
-    "Backend & Database": ["PHP","Laravel","Laravel Filament","Node.js","Express.js", "Redis", "Python", "FastAPI", "REST APIs","MySQL","PostgreSQL","NoSQL", "Supabase"],
-    "Mobile": ["Dart","Flutter","React Native","Firebase"],
-    "Authentication & Security": ["OAuth","JWT"],
-    "DevOps & Cloud": ["Docker","AWS","Firebase", "Vercel", "Netlify"],
-    "AI/LLMs": ["Claude","ChatGPT", "Cursor AI", "GitHub Copilot", "Gemini", "Groq"],
-    "Tools": ["Git","GitHub","VS Code","Visual Studio 2022", "Replit","Android Studio","XAMPP","ESLint","Prettier"],
-    "Design & Productivity": ["Figma","Canva","Microsoft Office","Notion","WordPress","Wix", "Shopify"],
-    "IT & Systems": ["Troubleshooting","Networking","System Administration","System Maintenance"]
- },
+  "Frontend": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "Vite",
+    "React.js",
+    "Next.js",
+    "Nuxt.js",
+    "Vue.js",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Alpine.js",
+    "Livewire",
+    "UI/UX Principles",
+    "Responsive Design"
+  ],
+
+  "Backend & Database": [
+    "PHP",
+    "Laravel",
+    "Laravel Filament",
+    "Node.js",
+    "Express.js",
+    "Redis",
+    "Python",
+    "FastAPI",
+    "REST APIs",
+    "MySQL",
+    "PostgreSQL",
+    "NoSQL",
+    "Supabase"
+  ],
+
+  "Mobile": [
+    "Dart",
+    "Flutter",
+    "React Native",
+    "Firebase"
+  ],
+
+  "Authentication & Security": [
+    "OAuth",
+    "JWT",
+    "Google Authentication"
+  ],
+
+  "DevOps & Cloud": [
+    "Docker",
+    "AWS",
+    "Firebase",
+    "Vercel",
+    "Netlify",
+    "Hostinger"
+  ],
+
+  "Analytics & SEO": [
+    "Google Analytics 4 (GA4)",
+    "Google Search Console",
+    "SEO APIs",
+    "Google APIs"
+  ],
+
+  "AI/LLMs": [
+    "Claude",
+    "Claude Code",
+    "ChatGPT",
+    "Cursor AI",
+    "GitHub Copilot",
+    "Gemini",
+    "Groq"
+  ],
+
+  "Version Control & Project Management": [
+    "Git",
+    "GitHub",
+    "Bitbucket",
+    "Jira",
+    "Microsoft Teams"
+  ],
+
+  "Package Management & Development Tools": [
+    "pnpm",
+    "npm",
+    "VS Code",
+    "Visual Studio 2022",
+    "Replit",
+    "Android Studio",
+    "XAMPP",
+    "ESLint",
+    "Prettier"
+  ],
+
+  "Design & Productivity": [
+    "Figma",
+    "Canva",
+    "Microsoft Office",
+    "Notion",
+    "WordPress",
+    "Wix",
+    "Shopify"
+  ],
+
+  "IT & Systems": [
+    "Troubleshooting",
+    "Networking",
+    "System Administration",
+    "System Maintenance"
+  ]
+},
   projects: [
     {
       id: 1,
@@ -196,6 +296,14 @@ export const profile = {
     },
   ],
   experience: [
+    { 
+      role: "Full Stack Developer", 
+      company: "Tradieflix", 
+      year: "April 2026 - Present 2026", 
+      employmentType: "Part Time",
+      active: true,
+      description: "Developing TradieFlix, a full-stack digital platform for the Australian trades industry. Responsible for building and maintaining the web application using Next.js, React, TypeScript, MySQL, REST APIs, Hostinger, and third-party integrations. Working across frontend, backend, authentication, database architecture, API integrations, SEO, analytics, and deployment, while implementing scalable features and maintaining the platform infrastructure."
+    },
     { 
       role: "Full Stack Developer", 
       company: "AppArara Digital", 
