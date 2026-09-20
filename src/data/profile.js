@@ -302,7 +302,7 @@ export const profile = {
       year: "April 2026 - Present 2026", 
       employmentType: "Part Time",
       active: true,
-      description: "Developing TradieFlix, a full-stack digital platform for the Australian trades industry. Responsible for building and maintaining the web application using Next.js, React, TypeScript, MySQL, REST APIs, Hostinger, and third-party integrations. Working across frontend, backend, authentication, database architecture, API integrations, SEO, analytics, and deployment, while implementing scalable features and maintaining the platform infrastructure."
+      description: "Developing a full-stack digital platform for the Australian trades industry. Responsible for building and maintaining the web application using Next.js, React, TypeScript, MySQL, REST APIs, Hostinger, and third-party integrations. Working across frontend, backend, authentication, database architecture, API integrations, SEO, analytics, and deployment, while implementing scalable features and maintaining the platform infrastructure."
     },
     { 
       role: "Full Stack Developer", 
