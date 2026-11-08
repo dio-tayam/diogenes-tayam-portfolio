@@ -162,6 +162,36 @@ export const profile = {
     },
     {
       id: 2,
+      title: "Travera",
+      description: "A full-stack travel planner built with Next.js, React, Tailwind CSS, and Supabase. Supports expense splitting, smart packing list, document storage, interactive itenarary, and more",
+      technologies: ["Next.js", "React", "Tailwind CSS", "Supabase"],
+      features: ["Multiple Languages", "Real-time Collaboration", "Interactive Intenerary", "Responsive Design"],
+      image: null,
+      githubUrl: "https://github.com/dio-tayam/travera",
+      liveUrl: "https://travera-world.netlify.app/",
+      featured: true,
+      impact: "Helps solo and group travellers to plan for their travels."
+    },
+    {
+      id: 3,
+      title: "Cognera",
+      description: "An AI-powered automation platform designed to streamline workflows and simplify everyday tasks through intelligent AI integrations, automation tools, and a centralized management interface.",
+      technologies: ["Next.js", "React", "TypeScript", "Supabase", "Tailwind CSS", "Vercel", "AI APIs"],
+      features: [
+      "AI-Powered Automation",
+      "Workflow Management",
+      "AI Integrations",
+      "User Authentication",
+      "Centralized Dashboard",
+      "Responsive Design"],
+      image: null,
+      githubUrl: "",
+      liveUrl: "https://cognera-xi.vercel.app/",
+      featured: true,
+      impact: ""
+    },
+     {
+      id: 4,
       title: "Edgerra",
       description: "A non-custodial marketplace where traders discover, build, and share intelligent signals for Polymarket",
       technologies: ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Stripe", "Webhook", "Prisma", "Docker"],
@@ -173,19 +203,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 3,
-      title: "Travera",
-      description: "A full-stack travel planner built with Next.js, React, Tailwind CSS, and Supabase. Supports expense splitting, smart packing list, document storage, interactive itenarary, and more",
-      technologies: ["Next.js", "React", "Tailwind CSS", "Supabase"],
-      features: ["Multiple Languages", "Real-time Collaboration", "Interactive Intenerary", "Responsive Design"],
-      image: null,
-      githubUrl: "https://github.com/dio-tayam/travera",
-      liveUrl: "https://travera-world.netlify.app/login",
-      featured: true,
-      impact: "Helps solo and group travellers to plan for their travels."
-    },
-    {
-      id: 4,
+      id: 5,
       title: "Tracera",
       description: "A free, full-stack job application tracker built for job seekers who want to stay organised and in control of their search. Track every application, monitor statuses, log interview moods, and gain insights — all synced across devices via Supabase with Google login.",
       technologies: ["Vue.js", "TailwindCSS", "Vite", "Supabase", "Pinia", "Vue Router", "Chart.js"],
@@ -211,7 +229,7 @@ export const profile = {
       impact: "Helps job seekers track every application in one place, stay on top of follow-ups, and understand their job search performance — all for free, with no data ever lost across devices."
     },
      {
-      id: 5 ,
+      id: 6 ,
       title: "Invoicera",
       description: "A full-stack invoice generator built with Vue 3 and Tailwind CSS. Supports client and sender details, dynamic line items, tax calculation, PDF export, and invoice history storage.",
       technologies: ["Vue.js", "Vite", "Tailwind CSS"],
@@ -223,7 +241,7 @@ export const profile = {
       impact: "Helps freelancers and small agencies create, save, and export professional invoices without needing a backend or paid tool."
     },
     {
-      id: 6,
+      id: 7,
       title: "Mailera",
       description: "A CSV-to-personalized-email generator built with Next.js and Tailwind CSS. Upload a contact list, write a prompt template with {{placeholders}}, choose a tone, and it generates a personalized subject line and email body for every row using Groq's Llama 3.3 70B.",
       technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "Groq API", "Llama 3.3 70B", "Vercel"],
@@ -235,7 +253,7 @@ export const profile = {
       impact: "Helps sales teams and recruiters generate hundreds of personalized outreach emails in minutes without writing each one manually."
     },
     {
-      id: 7,
+      id: 8,
       title: "Bicol University Center of Excellence Self-Assessment Tool",
       description: "A comprehensive self-assessment system for assessing the performance of employees with role-based access, document storage, and approval workflows. Features advanced search capabilities.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -247,7 +265,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 8,
+      id: 9,
       title: "Bicol University Merit System Promotion",
       description: "A comprehensive assessment system for assessing the performance of employees for promotion with role-based access, document storage, and approval workflows. Features advanced search.",
       technologies: ["TALL Stack", "Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL"],
@@ -259,7 +277,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 9,
+      id: 10,
       title: "Bicol University Student Archiving System",
       description: "A comprehensive archiving system for managing student academic records with role-based access, document storage, and approval workflows. Features advanced search capabilities and automated reports.",
       technologies: ["Laravel", "Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -271,7 +289,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 10,
+      id: 11,
       title: "TNHS Databank System",
       description: "A databank system for managing teachers' and students' data in a high school institution. It includes report generation and data entry functionality.",
       technologies: ["Laravel Filament", "Tailwind CSS", "MySQL", "PHP"],
@@ -283,7 +301,7 @@ export const profile = {
       impact: "Digitalized records management for 10,000+ students"
     },
     {
-      id: 11,
+      id: 12,
       title: "PaRental Guardian - E-commerce Platform",
       description: "A full-featured e-commerce platform for renting event equipment across Albay province. Includes user authentication, product catalog with advanced filtering, shopping cart, and payment processing.",
       technologies: ["HTML", "CSS", "PHP", "JavaScript", "MySQL"],
@@ -295,7 +313,7 @@ export const profile = {
       impact: ""
     },
     {
-      id: 12,
+      id: 13,
       title: "Queery - Mobile Dictionary App",
       description: "An innovative mobile dictionary application for Android providing offline access to LGBTQ+ lingo definitions. Features include smart search, favorites, word history, and community contributions.",
       technologies: ["Flutter", "Dart", "Firebase", "Hive"],
@@ -311,7 +329,7 @@ export const profile = {
     { 
       role: "Full Stack Developer", 
       company: "Tradieflix", 
-      year: "April 2026 - Present 2026", 
+      year: "April 2026 - Present", 
       employmentType: "Part Time",
       active: true,
       description: "Developing a full-stack digital platform for the Australian trades industry. Responsible for building and maintaining the web application using Next.js, React, TypeScript, MySQL, REST APIs, Hostinger, and third-party integrations. Working across frontend, backend, authentication, database architecture, API integrations, SEO, analytics, and deployment, while implementing scalable features and maintaining the platform infrastructure."
