@@ -330,22 +330,30 @@ export const profile = {
       role: "Full Stack Developer", 
       company: "Tradieflix", 
       year: "April 2026 - Present", 
-      employmentType: "Part Time",
+      employmentType: "Freelance Part Time",
       active: true,
       description: "Developing a full-stack digital platform for the Australian trades industry. Responsible for building and maintaining the web application using Next.js, React, TypeScript, MySQL, REST APIs, Hostinger, and third-party integrations. Working across frontend, backend, authentication, database architecture, API integrations, SEO, analytics, and deployment, while implementing scalable features and maintaining the platform infrastructure."
+    },
+    { 
+      role: "Full Stack AI Developer", 
+      company: "Cyberma s.r.o", 
+      year: "July 2026 - September 2026", 
+      employmentType: "Freelance Part Time",
+      active: true,
+      description: "Co-developed, improved, and optimized Marketing Mindset, an educational resource platform tailored for entrepreneurs, freelancers, and SME owners."
     },
     { 
       role: "Full Stack Developer", 
       company: "AppArara Digital", 
       year: "January 2026 - June 2026", 
-      employmentType: "Part Time",
+      employmentType: "Freelance Part Time",
       active: true,
       description: "Developed a web-based tool for prediction market intelligence with wallet integration using React.js, Next.js, Node.js, and PostgreSQL."
     },
     { 
       role: "Full Stack Developer", 
       company: "Bicol University - Information Communication Technology Office", 
-      year: "October 2025 - June 2026", 
+      year: "October 2025 - October 2026", 
       employmentType: "Full Time",
       active: true,
       description: "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive applications."
