@@ -496,7 +496,7 @@
       "year": "October 2025 - October 2026",
       "employmentType": "Full Time",
       "active": true,
-      "description": "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) with MySQL for database management to build responsive and interactive applications."
+      "description": "Developed university information systems using the TALL stack (Tailwind CSS, Alpine.js, Laravel, and Livewire) and Filament with MySQL for database management to build responsive and interactive applications."
     },
     {
       "role": "Full Stack Developer Intern",
