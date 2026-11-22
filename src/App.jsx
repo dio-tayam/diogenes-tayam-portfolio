@@ -9,14 +9,20 @@ import Seminars from "./components/Seminars";
 import Contact from "./components/Contact";
 import SkillsPage from "./pages/SkillsPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import StudioPage from "./pages/StudioPage";
 
 export default function App() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
+  const [portfolioStyle, setPortfolioStyle] = useState(() => localStorage.getItem("portfolio-style-v2") || "studio");
   const [currentPage, setCurrentPage] = useState("home");
   const [selectedProjectId, setSelectedProjectId] = useState(null);
 
   const bgColor = dark ? "#000000" : "#ffffff";
   const textColor = dark ? "#ededed" : "#111827";
+
+  useEffect(() => {
+    localStorage.setItem("portfolio-style-v2", portfolioStyle);
+  }, [portfolioStyle]);
 
   useEffect(() => {
     document.documentElement.style.backgroundColor = bgColor;
@@ -60,11 +66,15 @@ export default function App() {
     );
   }
 
+  if (portfolioStyle === "studio") {
+    return <StudioPage dark={dark} setDark={setDark} portfolioStyle={portfolioStyle} setPortfolioStyle={setPortfolioStyle} />;
+  }
+
   return (
     <div style={{ minHeight: "100vh", backgroundColor: bgColor, color: textColor }} className="transition-colors duration-300">
       <div className="min-h-screen transition-colors duration-300 px-4 sm:px-8 py-5">
         <div className={`mx-auto w-full max-w-[980px] ${dark ? "bg-black" : "bg-white"}`}>
-          <Hero dark={dark} setDark={setDark} />
+          <Hero dark={dark} setDark={setDark} portfolioStyle={portfolioStyle} setPortfolioStyle={setPortfolioStyle} />
 
           <main className="mx-auto w-full max-w-[980px] px-4 sm:px-6 pb-10">
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_290px] gap-6 items-start">

@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { MapPin, Mail, Github, Linkedin, Download, Moon, Sun } from "lucide-react";
+import { MapPin, Mail, Github, Linkedin, Download, Moon, Sun, PanelsTopLeft, ChevronDown } from "lucide-react";
 import { profile } from "../data/profile";
 import heroLight from "../assets/hero.jpg";
 import heroDark from "../assets/hero-dark.png";
 
 const titles = profile.title;
 
-export default function Hero({ dark, setDark }) {
+export default function Hero({ dark, setDark, portfolioStyle, setPortfolioStyle }) {
   const [index, setIndex] = useState(0);
   const [displayed, setDisplayed] = useState("");
   const [deleting, setDeleting] = useState(false);
@@ -53,13 +53,18 @@ export default function Hero({ dark, setDark }) {
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-2 mb-2 flex-wrap">
             <h1 className={`text-2xl sm:text-4xl font-bold leading-tight ${text}`}>{profile.name}</h1>
-            <button
-              onClick={() => setDark(!dark)}
-              className={`w-9 h-9 sm:w-11 sm:h-11 rounded-sm border flex items-center justify-center transition-all flex-shrink-0 ${dark ? "border-zinc-700 text-zinc-300 hover:bg-zinc-900" : "border-zinc-300 text-zinc-600 hover:bg-zinc-100"}`}
-              aria-label="Toggle theme"
-            >
-              {dark ? <Sun size={16} /> : <Moon size={16} />}
-            </button>
+            <div className="flex gap-2 flex-shrink-0">
+              <label className={`h-9 sm:h-11 px-2 sm:px-3 rounded-sm border flex items-center gap-1.5 transition-all text-[10px] sm:text-xs cursor-pointer ${dark ? "border-zinc-700 text-zinc-300 hover:bg-zinc-900" : "border-zinc-300 text-zinc-600 hover:bg-zinc-100"}`}>
+                <PanelsTopLeft size={15} /><select className="appearance-none bg-transparent outline-none cursor-pointer" aria-label="Portfolio layout" value={portfolioStyle} onChange={(event) => setPortfolioStyle(event.target.value)}><option value="resume">Resume layout</option><option value="studio">Studio layout</option></select><ChevronDown size={13}/>
+              </label>
+              <button
+                onClick={() => setDark(!dark)}
+                className={`w-9 h-9 sm:w-11 sm:h-11 rounded-sm border flex items-center justify-center transition-all flex-shrink-0 ${dark ? "border-zinc-700 text-zinc-300 hover:bg-zinc-900" : "border-zinc-300 text-zinc-600 hover:bg-zinc-100"}`}
+                aria-label="Toggle theme"
+              >
+                {dark ? <Sun size={16} /> : <Moon size={16} />}
+              </button>
+            </div>
           </div>
           <div className={`flex items-center gap-1 text-xs sm:text-sm mb-2 ${muted}`}>
             <MapPin size={14} />
